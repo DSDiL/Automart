@@ -27,8 +27,8 @@ public class profileInsert extends HttpServlet {
 		
 		String host = "smtp.gmail.com";
 		String port = "587";
-		String user = "automart.pvt@gmail.com";
-		String pass = "automart123";
+		String user = "<add your company email>";
+		String pass = "<add email password>";
 		
 		boolean isTrue, isTrue1;
 		
