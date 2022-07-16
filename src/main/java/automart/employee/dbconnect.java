@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 public class dbconnect {
 
 	private static String url = "jdbc:mysql://localhost:3306/automart?autoReconnect=true&useSSL=false";
-	private static String user = "root";
-	private static String pass = "Dilanka000112";
+	private static String user = "<your DB name>";
+	private static String pass = "<your DB password>";
 	private static Connection con;
 
 	public static Connection getConnection() {
